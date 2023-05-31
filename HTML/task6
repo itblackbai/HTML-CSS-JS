@@ -1,0 +1,20 @@
+//Загорнути у тег <form>
+    - Поле <input>, type=”text” placeholder=”Логін”;
+    - Поле <input>, type=”password” placeholder=”Пароль”;
+    - <textarea>, placeholder=”Ваше повідомлення”;
+    - Поле <input>, type=”submit” value=”Надіслати”;
+    
+
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>Вивчаємо HTML</title>
+</head>
+<body>
+
+    <form name="" action="" method="">
+        <input type="text" name="" placeholder="Логін">
+        <input type="password" name="" placeholder="Пароль">
+        <textarea name="" placeholder="Ваше повідомлення"></textarea>
+        <input type="submit" name="" value="Надіслати">
+     </form>
+
+</body>
+</html>
