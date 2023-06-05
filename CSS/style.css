@@ -1,0 +1,160 @@
+/* General style */
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+p{
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+/* Header */
+
+.header {
+    padding:  50px 0;
+    background-color:  yellowgreen;
+}
+
+.header h1, h2 {
+    color: greenyellow;
+    text-align:  center;
+}
+/* Nav */
+
+.page-navigation {
+    background-color: #222;
+    border-color: #101010;
+    min-height: 64px;
+}
+
+.page-navigation li {
+    float: left;
+    width:  100px;
+    color: yellowgreen;
+    background-color: black;
+}
+
+.page-navigation a {
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* login */
+.login {
+    padding: 15px 0;
+    float: right;
+}
+.login input [text="text"],
+.login input [text="password"]{
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius:  5px;
+    outline: none;
+}
+
+.login input [text="submit"]{
+    padding: 5px 15px;
+    border:  1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.login input [type="submit"] :hover ,
+button{
+    background-color: darkgrey;
+    color: white;
+}
+
+/* Main part */
+
+.collections {
+    overflow: auto;
+}
+
+.collections-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 36px;
+}
+.collections-title small{
+    color: #777;
+    font-size: 70px;   
+}
+
+.collections-item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.collections > div  :first-child {
+ padding-left: 0;
+ padding-right: 5px;
+}
+.collections > div  :last-child {
+    padding-left: 0;
+    padding-right: 5px;
+   }
+.collections-item {
+    border: 1px solid #959595;
+
+}
+.collections-item img {
+    width:  100%;
+}
+
+.collections-text {
+    padding: 0 20px 20px 20px;
+}
+.collections-text h3{
+    color:  yellowgreen;
+    overflow:  hidden;
+    white-space:  nowrap;
+    text-overflow: ellipsis;
+}
+
+.collections-text p {
+    max-height:  80px;
+    overflow:  hidden;
+}
+
+.collections-text button {
+    padding:  10px;
+    border:  1px solid transparent;
+    border-radius: 5px;
+    outline:  none;
+}
+
+/* footer */
+
+.footer {
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
