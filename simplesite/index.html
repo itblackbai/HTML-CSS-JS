@@ -3,11 +3,13 @@
     <head>
         <title>Learn HTML/CSS/JS</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/CSS" href="css/normalize.css">
+        <link rel="stylesheet" type="text/CSS" href="css/style.css">
     </head>
     <body>
         <!--HEADER-->
-        <header>
-            <div>
+        <header class="header">
+            <div class="container">
                 <H1>Main text</H1>
                 <h2>
                     <small>It's no main text</small>
@@ -16,15 +18,15 @@
         </header>
         
         <!--NAV-->
-        <nav>
-            <div>
+        <nav class="page-navigation">
+            <div class="container">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
                 <!--Login form-->
-                <form action="#">
+                <form action="#" class="login">
                     <input type="text" placeholder="Login" required>    
                     <input type="password" placeholder="Password" required>  
                     <input type="submit" value="Sing in">  
@@ -33,13 +35,13 @@
         </nav>
         <!--MAIN-->
         <main>
-            <div>
-                <h2>Image <small>Collection</small></h2>
-                <div>
-                    <div>
-                        <div>
+            <div class="container">
+                <h2 class="Collection-title">Image <small>Collection</small></h2>
+                <div class="Collection">
+                    <div class="Collection-title-outer">
+                        <div class="Collection-title">
                             <img src="Image//cat.jpeg" alt="THIS IS CAT!" width="300" height="">
-                            <div>
+                            <div class="Collection-text">
                                 <h3>List element Item</h3>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi magnam quasi nobis illo consequuntur tempora, explicabo quod itaque suscipit asperiores, et officia eius minus exercitationem iste incidunt voluptas enim debitis.
@@ -48,10 +50,13 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                   
+                </div>
+                <div class="Collection">
+                    <div class="Collection-title-outer">
+                        <div class="Collection-title">
                             <img src="Image//cat.jpeg" alt="THIS IS CAT!" width="300" height="">
-                            <div>
+                            <div class="Collection-text">
                                 <h3>List element Item</h3>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi magnam quasi nobis illo consequuntur tempora, explicabo quod itaque suscipit asperiores, et officia eius minus exercitationem iste incidunt voluptas enim debitis.
@@ -60,10 +65,13 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                   
+                </div>
+                <div class="Collection">
+                    <div class="Collection-title-outer">
+                        <div class="Collection-title">
                             <img src="Image//cat.jpeg" alt="THIS IS CAT!" width="300" height="">
-                            <div>
+                            <div class="Collection-text">
                                 <h3>List element Item</h3>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi magnam quasi nobis illo consequuntur tempora, explicabo quod itaque suscipit asperiores, et officia eius minus exercitationem iste incidunt voluptas enim debitis.
@@ -72,6 +80,7 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
                 <div>
                     <div>
@@ -114,8 +123,8 @@
             </div>
         </main>
         <!--FOOTER-->
-        <footer>
-         <div>
+        <footer class="footer">
+         <div class="container">
             <p>This is info for copping!</p>
          </div>
         </footer>
